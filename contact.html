@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with CleanLife for professional clean air and water solutions. Free consultation available. 24/7 customer support.">
+  <meta name="keywords" content="contact, support, consultation, cleanlife, customer service">
+  <meta name="author" content="CleanLife">
+  <meta name="theme-color" content="#0a4d68">
+  <title>Contact Us | CleanLife</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .contact-form select {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      padding: 0.9rem;
+      border: 2px solid #e2e8f0;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 1rem;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      background: #f8fafc;
+    }
+
+    .contact-form select:focus {
+      outline: none;
+      border-color: #00d4ff;
+      background: white;
+      box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.1);
+      transform: translateY(-2px);
+    }
+
+    .contact-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .info-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      border-left: 4px solid var(--primary);
+      transition: all 0.3s ease;
+    }
+
+    .info-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    .info-card h3 {
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      font-size: 1.2rem;
+    }
+
+    .info-card p {
+      color: var(--text-secondary);
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav">
+    <div class="logo">🌿 CleanLife</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="content">
+  <h1>Contact CleanLife Today</h1>
+  <p style="margin-bottom: 2rem; font-size: 1.1rem; color: var(--text-secondary);">
+    Have questions about our services? Ready to improve your air and water quality? 
+    Get in touch with our team for a free consultation. We're here to help!
+  </p>
+
+  <form class="contact-form">
+    <label for="name">Full Name *</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+    <label for="email">Email Address *</label>
+    <input type="email" id="email" name="email" required placeholder="you@example.com">
+
+    <label for="phone">Phone Number (Optional)</label>
+    <input type="tel" id="phone" name="phone" placeholder="+1 (800) 123-4567">
+
+    <label for="service">Service Interest *</label>
+    <select id="service" name="service" required>
+      <option value="">-- Select a Service --</option>
+      <option value="water">💧 Water Filtration Systems</option>
+      <option value="air">💨 Air Purification Solutions</option>
+      <option value="installation">🔧 Professional Installation</option>
+      <option value="maintenance">📞 Maintenance & Support</option>
+      <option value="consultation">🎯 Free Consultation</option>
+    </select>
+
+    <label for="message">Your Message *</label>
+    <textarea id="message" name="message" rows="6" required placeholder="Tell us more about your needs..."></textarea>
+
+    <button type="submit" class="btn" style="width: 100%; padding: 1rem;">💬 Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <div class="info-card">
+      <h3>📞 Phone</h3>
+      <p>
+        <strong>Toll Free:</strong> 1-800-CLEAN-99<br>
+        <strong>(1-800-253-2699)</strong><br>
+        <span style="color: #94a3b8; font-size: 0.9rem;">Available 24/7</span>
+      </p>
+    </div>
+
+    <div class="info-card">
+      <h3>📧 Email</h3>
+      <p>
+        <strong>Support:</strong> support@cleanlife.com<br>
+        <strong>Sales:</strong> sales@cleanlife.com<br>
+        <span style="color: #94a3b8; font-size: 0.9rem;">Response within 2 hours</span>
+      </p>
+    </div>
+
+    <div class="info-card">
+      <h3>🕐 Business Hours</h3>
+      <p>
+        <strong>Customer Support:</strong> 24/7<br>
+        <strong>Sales Team:</strong> Mon-Fri 9AM-6PM<br>
+        <span style="color: #94a3b8; font-size: 0.9rem;">EST Time Zone</span>
+      </p>
+    </div>
+  </div>
+
+  <section class="service" style="margin-top: 3rem; background: linear-gradient(135deg, #f0f9ff 0%, #dbeafe 100%); border-left: 4px solid var(--primary);">
+    <h2>✨ Why Choose Our Customer Support?</h2>
+    <ul style="list-style: none; padding: 0;">
+      <li style="padding: 0.6rem 0;">✓ 24/7 Availability for emergencies and support</li>
+      <li style="padding: 0.6rem 0;">✓ Expert technicians ready to assist</li>
+      <li style="padding: 0.6rem 0;">✓ Free consultation and system assessment</li>
+      <li style="padding: 0.6rem 0;">✓ Quick response times (usually within 2 hours)</li>
+      <li style="padding: 0.6rem 0;">✓ Multiple contact methods for your convenience</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; 2025 CleanLife. All rights reserved. | <a href="contact.html">Get Started Today</a></p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
